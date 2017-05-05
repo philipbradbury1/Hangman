@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: darkgrey; 
+	font-family: Arial;
+	color: #2f3943;
+}
+
+#container{
+	width: 500px;
+	height: 650px;
+	background-color: orange;
+	margin: 50px auto;
+}
+
+header{
+margin: 0;
+height: 80px;
+line-height: 60px;
+color: white;
+text-align: center;
+}
+
+canvas{
+	border: #fff solid 1px;
+	margin: 0 auto;
+
+	display: block;
+
+}
+
+#worddHolder{
+	margin: 0 auto;
+}
+
+#letters{
+	color: white;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.guess{
+	display: inline;
+	padding: 0 5px;
+	font-size: 2.5em;
+}
+
+#outcome{
+	height: 50px;
+	text-align: center;
+}
+
+
+#keys, #btnR{
+	width: 100%;
+	text-align: center;
+
+}
+
+p{
+color: white;
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.button, .reset {
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: orange;
+  font-size: 16px;
+  background: #ffffff;
+  min-width:  40px;
+  min-height: 40px;
+  border: none;
+  text-decoration: none;
+
+}
+
+.button:hover, .reset:hover {
+  background: #ffa200;
+  text-decoration: none;
+  color: white;
+  border: solid #ffffff 1px;
+}
+
+ input:disabled {
+    opacity: 0.3;
+}
